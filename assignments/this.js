@@ -12,7 +12,13 @@
 // Principle 1
 
 // code example for Window Binding
-console.log(this);
+let simple = function (){
+  console.log(this.a)
+}
+
+var a = 2
+
+simple();
 
 // Principle 2
 
